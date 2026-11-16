@@ -14,9 +14,8 @@
 
 Official inference code for **"Comprehensive liver segmentation and lesion subtype classification in multiphasic CT"**, to be presented at SPIE Medical Imaging 2027 (Vancouver, 14–18 February 2027).
 
-<!-- TODO: add a overview figure, e.g. <p align="center"><img src="assets/overview.png" width="85%"></p> -->
-
 ## Overview
+<p align="center"><img src="assets/overview.png" width="85%"></p>
 
 Given a CT volume, the model jointly predicts four structures:
 
@@ -93,7 +92,7 @@ Results for `scan.nii.gz` are written to `path/to/output/scan/`.
 If you use this code or model, please cite:
 
 ```bibtex
-@inproceedings{alberb2027comprehensive,
+@inproceedings{Alberb2027LiverSeg,
   author    = {Alberb, Muhammad and Carrascal-Penaranda, Daniela and Erazo-Morera, Nicole and Raphael, Michael J. and Karanicolas, Paul J. and Cheung, Helen and Martel, Anne L.},
   title     = {Comprehensive liver segmentation and lesion subtype classification in multiphasic {CT}},
   booktitle = {SPIE Medical Imaging 2027},
